@@ -1,4 +1,4 @@
-# Python Twitter Inspector Tools
+# Twitter/X Inspection Tools (Python)
 
 Inspect the full data structure that Twitter/X returns for a given user—no official API key required. This tiny CLI tool reads your web-session cookies (`auth_token` and `ct0`) from a local `AUTH.yaml`, uses `twitter-api-client`’s `Scraper`, and prints the user record as nicely formatted YAML.
 
@@ -98,8 +98,6 @@ legacy:
   friends_count: 5000
   ...
 ```
-
----
 
 ---
 
